@@ -1,0 +1,11 @@
+<div *ngIf="animal">
+    <h2>{{animal.name}} details!</h2>
+    <div>
+        <label>id: </label>{{animal.id}}</div>
+    <div>
+        <label>name: </label>
+        <input [(ngModel)]="animal.name" placeholder="name" />
+        <div><img [src]="animal.image" /><div>
+    </div>
+    <button (click)="goBack()">Back</button>
+</div>

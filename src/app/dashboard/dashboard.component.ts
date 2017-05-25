@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Hero } from '../hero';
-import { HeroService } from '../hero.service';
+import { Animal } from '../animal';
+import { AnimalService } from '../animal.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -8,11 +8,11 @@ import { HeroService } from '../hero.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-	heroes: Hero[] = [];
-  constructor(private heroService: HeroService) { }
+	animals: Animal[] = [];
+  constructor(private animalService: AnimalService) { }
   ngOnInit(): void {
-    this.heroService.getHeroes()
-      .then(heroes => this.heroes = heroes.slice(1, 5));
+    this.animalService.getAnimals()
+      .then(animals => this.animals = [animals[0], animals[4], animals[5], animals[10]]);
   }
 
 }

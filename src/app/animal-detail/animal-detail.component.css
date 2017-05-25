@@ -27,3 +27,7 @@ button:disabled {
   color: #ccc; 
   cursor: auto;
 }
+img {
+  margin-top: 10px;
+  border-style: solid;
+}

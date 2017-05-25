@@ -1,14 +1,64 @@
-import { Hero } from './hero';
+import { Animal } from './animal';
 
-export const HEROES: Hero[] = [
-  { id: 11, name: 'Mr. Nice' },
-  { id: 12, name: 'Narco' },
-  { id: 13, name: 'Bombasto' },
-  { id: 14, name: 'Celeritas' },
-  { id: 15, name: 'Magneta' },
-  { id: 16, name: 'RubberMan' },
-  { id: 17, name: 'Dynama' },
-  { id: 18, name: 'Dr IQ' },
-  { id: 19, name: 'Magma' },
-  { id: 20, name: 'Tornado' }
-];
+export const ANIMALS: Animal[] = [
+{
+  id: 1,
+  name: 'Taylor',
+  image: 'https://designerdoginfo.files.wordpress.com/2013/01/puggle-puppy-4.jpg?w=584'
+}, {
+  id: 2,
+  name: 'Reggie',
+  image: 'http://images.shape.mdpcdn.com/sites/shape.com/files/styles/slide/public/puppy-2_0.jpg'
+}, {
+  id: 3,
+  name: 'Christian',
+  image: 'https://www.askideas.com/media/19/Papillon-Puppy-Looking.jpg'
+}, {
+  id: 4,
+  name: 'Jessie',
+  image: 'http://www.101dogbreeds.com/wp-content/uploads/2015/10/Chi-Spaniel-Puppy-Pictures.jpg'
+}, {
+  id: 5,
+  name: 'Pandora',
+  image: 'http://4.bp.blogspot.com/-3JeIxWBU7bY/UKjIt8lVpCI/AAAAAAAABx8/YM8piSOwczs/s1600/Schipperke-Puppy.jpg'
+}, {
+  id: 6,
+  name: 'Toby',
+  image: 'http://placekitten.com/g/401/401'
+}, {
+  id: 7,
+  name: 'Thaddeus',
+  image: 'http://placekitten.com/g/402/402'
+}, {
+  id: 8,
+  name: 'Bella',
+  image: 'http://placekitten.com/g/403/403'
+}, {
+  id: 9,
+  name: 'Tiger',
+  image: 'http://placekitten.com/g/400/400'
+}, {
+  id: 10,
+  name: 'Oliver',
+  image: 'http://placekitten.com/g/404/404'
+}, {
+  id: 11,
+  name: 'Yogi',
+  image: 'https://placebear.com/g/400/400'
+}, {
+  id: 12,
+  name: 'Marx',
+  image: 'https://placebear.com/g/401/401'
+}, {
+  id: 13,
+  name: 'Otto',
+  image: 'https://placebear.com/g/402/402'
+}, {
+  id: 14,
+  name: 'Lori',
+  image: 'https://placebear.com/g/403/403'
+}, {
+  id: 15,
+  name: 'Larry',
+  image: 'https://placebear.com/g/404/404'
+}];
